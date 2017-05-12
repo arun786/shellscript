@@ -8,4 +8,5 @@ do
 		continue
 	fi
 	echo "the number is odd $a"
+	#push
 done
