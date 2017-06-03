@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 function backup_a_file(){
 	
 			if [ -f $1 ]
@@ -10,7 +8,13 @@ function backup_a_file(){
 cp ${1} ${backup}
 else
 echo "its not a file"
+return 1
 fi
 }
 
 backup_a_file ${1}
+
+if [ $? -eq 0 ]
+then
+	echo "Backup successful"
+fi
