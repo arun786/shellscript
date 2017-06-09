@@ -11,3 +11,7 @@ grep <text> <filename1> <filename2>
 #to find text in current directory
 
 grep <text> *
+
+#to ignore case for the text to search
+	
+grep -i <text> *
