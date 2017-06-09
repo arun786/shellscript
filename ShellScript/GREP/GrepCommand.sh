@@ -15,3 +15,11 @@ grep <text> *
 #to ignore case for the text to search
 	
 grep -i <text> *
+
+#to display line number also
+
+grep -n <text> <filename>
+
+#to display line number aswellas ignore case 
+	
+grep -ni <text> <filename>
