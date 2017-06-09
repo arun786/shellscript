@@ -23,3 +23,7 @@ grep -n <text> <filename>
 #to display line number aswellas ignore case 
 	
 grep -ni <text> <filename>
+
+# to display only the filename
+
+grep -l <text> *
