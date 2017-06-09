@@ -27,3 +27,7 @@ grep -ni <text> <filename>
 # to display only the filename
 
 grep -l <text> *
+
+# to find the whole word in a file
+
+grep -w <text> <filename>
