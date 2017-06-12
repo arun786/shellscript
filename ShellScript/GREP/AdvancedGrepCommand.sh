@@ -25,3 +25,7 @@ grep -e <text1> -e <text2> <filename>
 
 #we can use egrep for multiple search
 egrep '<text1>|<text2> <filename>
+
+#to display only 2 records from a list of 10 records using grep command
+
+grep <text1> <filename> | head -n2
