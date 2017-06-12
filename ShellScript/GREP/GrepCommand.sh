@@ -31,3 +31,8 @@ grep -l <text> *
 # to find the whole word in a file
 
 grep -w <text> <filename>
+
+
+#To write all the process to a file
+
+ps -ef > <filename>

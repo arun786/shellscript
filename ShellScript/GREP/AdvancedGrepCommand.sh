@@ -19,3 +19,9 @@ grep -C 1 <Text to be searched> <name of the file>
 
 #To count the number of occurences of the word
 grep -c <text to be searched> <name of the file>
+
+#for multiple search
+grep -e <text1> -e <text2> <filename>
+
+#we can use egrep for multiple search
+egrep '<text1>|<text2> <filename>
